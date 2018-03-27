@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E52E171206990BF009285ED /* iPayCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E52E170206990BF009285ED /* iPayCVCell.swift */; };
 		2ED875B920694C330099AB37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED875B820694C330099AB37 /* AppDelegate.swift */; };
 		2ED875BB20694C330099AB37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED875BA20694C330099AB37 /* ViewController.swift */; };
 		2ED875BE20694C330099AB37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED875BC20694C330099AB37 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		2ED875C320694C330099AB37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED875C120694C330099AB37 /* LaunchScreen.storyboard */; };
 		2ED875CE20694C330099AB37 /* iPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED875CD20694C330099AB37 /* iPayTests.swift */; };
 		2ED875D920694C330099AB37 /* iPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED875D820694C330099AB37 /* iPayUITests.swift */; };
+		873B7EC8206A362D001602EA /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B7EC7206A362D001602EA /* WebViewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E52E170206990BF009285ED /* iPayCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPayCVCell.swift; sourceTree = "<group>"; };
 		2ED875B520694C330099AB37 /* iPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED875B820694C330099AB37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ED875BA20694C330099AB37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		2ED875D420694C330099AB37 /* iPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED875D820694C330099AB37 /* iPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPayUITests.swift; sourceTree = "<group>"; };
 		2ED875DA20694C330099AB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873B7EC7206A362D001602EA /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				2ED875B820694C330099AB37 /* AppDelegate.swift */,
 				2ED875BA20694C330099AB37 /* ViewController.swift */,
+				2E52E170206990BF009285ED /* iPayCVCell.swift */,
+				873B7EC7206A362D001602EA /* WebViewVC.swift */,
 				2ED875BC20694C330099AB37 /* Main.storyboard */,
 				2ED875BF20694C330099AB37 /* Assets.xcassets */,
 				2ED875C120694C330099AB37 /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873B7EC8206A362D001602EA /* WebViewVC.swift in Sources */,
 				2ED875BB20694C330099AB37 /* ViewController.swift in Sources */,
+				2E52E171206990BF009285ED /* iPayCVCell.swift in Sources */,
 				2ED875B920694C330099AB37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +441,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeX.iPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,7 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeX.iPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
